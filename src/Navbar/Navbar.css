@@ -1,0 +1,84 @@
+
+.navbar{
+     
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.logo{
+   
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    object-fit: contain;
+
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.n-left{
+    display: flex;
+     flex:1;
+     align-items: center;
+     gap: 2rem;
+     
+}
+
+
+.n-right{
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    
+
+}
+
+.nav{
+
+    flex: 10;
+}
+
+.nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.nav>ul>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.n-button{
+    flex: 2;
+}
+
+
+@media screen and (max-width: 480px) {
+    .nav {
+       
+        display: none;
+       
+      }
+   
+    .n-button{
+        display: none;
+    }
+}
+
+
+   
+
+  
